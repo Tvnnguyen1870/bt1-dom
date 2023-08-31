@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    position:fixed ;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 480px;
+    border: 1px solid #000;
+    display: block;
+}
+table tbody td{
+    padding-top: 20px;
+    padding-left: 36px;
+}
+
+table th {
+    padding-top: 32px;
+    width: 450px;
+    text-align: center;
+}
+
+table tbody p{
+    padding-top: 16px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+table tbody input{
+    width: 300px;
+}
+
+tbody tr td #male {
+    padding-right: 30px;
+}
+
+tbody #btn {
+    width: 100px;
+    height: 40px;
+    margin-left: 140px;
+}
+
+tbody button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+tbody tr #last {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+tbody tr #result {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
